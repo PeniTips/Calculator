@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Simple Calculator</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <input class="output" type="text" readonly />
+      <div class="btns">
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="inputValue('7')">7</button>
+        <button onclick="inputValue('8')">8</button>
+        <button onclick="inputValue('9')">9</button>
+        <button onclick="inputValue('+')">+</button>
+        <button onclick="inputValue('4')">4</button>
+        <button onclick="inputValue('5')">5</button>
+        <button onclick="inputValue('6')">6</button>
+        <button onclick="inputValue('-')">-</button>
+        <button onclick="inputValue('1')">1</button>
+        <button onclick="inputValue('2')">2</button>
+        <button onclick="inputValue('3')">3</button>
+        <button onclick="inputValue('*')">*</button>
+        <button onclick="inputValue('÷')">÷</button>
+        <button onclick="inputValue('.')">.</button>
+        <button onclick="inputValue('0')">0</button>
+        <button onclick="deleteDisplay()">Del</button>
+        <button class="equal-sign" onclick="calculate('=')">=</button>
+      </div>
+    </div>
+    <script src="index.js" async defer></script>
+  </body>
+</html>
