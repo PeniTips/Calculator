@@ -57,7 +57,7 @@ button:active,
   color: hsl(184, 22%, 87%);
 }
 .output {
-  color: rgb(32, 32, 32);
+  color: hsl(13, 81%, 59%);
   margin-top: 20px;
   border-radius: 5px;
   height: 120px;
